@@ -18,7 +18,7 @@ export const useFetch = (url: string, ...props: any) => {
         };
 
         fetchData();
-    }, [url]);
+    }, [url,props]);
 
     return [status, data];
 };
