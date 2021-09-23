@@ -27,6 +27,7 @@ export const UserInfoPage: React.FC = ({ ...props }) => {
         },
         result: {
           items: items,
+          title: "Results",
           noResultsLabel: "No Results",
         },
         search: {
